@@ -1,0 +1,10 @@
+Algorithm,SJF_NonPreemptive
+Process_ID,Arrival_Time,Burst_Time,Completion_Time,Turnaround_Time,Waiting_Time
+P1,0,7,7,7,0
+P2,2,4,17,15,11
+P3,4,1,8,4,3
+P4,5,3,13,8,5
+P5,8,2,10,2,0
+Context_Switches,4
+Average_Waiting_Time,3.80
+Average_Turnaround_Time,7.20
