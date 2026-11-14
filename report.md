@@ -284,12 +284,13 @@ Chèn ảnh giao diện và kết quả chạy thật. Nhận xét dựa trên W
 Ghi rõ thành viên, nhiệm vụ, tệp phụ trách, commit Git và bằng chứng đóng góp. Mỗi thành viên cần hiểu thuật toán và có thể giải thích phần mình làm.
  STT | Họ và tên | MSSV | Nhiệm vụ / Output chịu trách nhiệm | Đánh giá |
 |:---:|:---|:---:|:---|:---:|
-| 1 | **Ngụy Thái Dương** | `[072207010104]` | Quản lý tích hợp hệ thống, tài liệu tổng thể, mô hình toán học & giả định, flowchart kiến trúc, điều phối và tổng hợp báo cáo | **100%** |
-| 2 | **Vũ Thanh Hùng** | `[075207011121]` | Module Core (`memory_manager.h/.cpp`): Cài đặt thuật toán First-Fit, Best-Fit, Worst-Fit; logic tách/gộp khối (`coalesce`), làm tròn đơn vị cấp phát, kiểm tra bất biến `validateState` | **100%** |
-| 3 | **Trịnh Quang Huy** | `[075207004369]` | Xây dựng bộ test cases hồi quy (`test_memory_manager.cpp`), kiểm thử bất biến trạng thái, kiểm thử áp lực (stress test) và đo lường benchmark hiệu năng | **100%** |
-| 4 | **Nguyễn Hoàng Long** | `[Điền MSSV]` | Thiết kế giao diện Qt6 Widgets (`main_window.ui/.cpp`), vẽ sơ đồ thanh bộ nhớ động (`memory_map_widget.cpp`), bộ điều phối mô phỏng (`simulation_controller.cpp`), cấu hình CI/CD GitHub Actions | **100%** |
-| 5 | **Nguyễn Văn Trường** | `[075207008588]` | Module CSV Reader/Writer (`csv_handler.h/.cpp`); xây dựng bộ dữ liệu kiểm thử input/output (`config_sample.csv`, `events_*.csv`); soạn thảo phụ lục kỹ thuật và đặc tả dữ liệu | **100%** |
+| 1 | **Ngụy Thái Dương** | `[072207010104]` | Pseudocode, code, GUI | **100%** |
+| 2 | **Vũ Thanh Hùng** | `[075207011121]` | code, GUI, report | **100%** |
+| 3 | **Trịnh Quang Huy** | `[075207004369]` | code, GUI, report | **100%** |
+| 4 | **Nguyễn Hoàng Long** | `[Điền MSSV]` | Pseudocode, code, GUI | **100%** |
+| 5 | **Nguyễn Văn Trường** | `[075207008588]` | Testplan, code, GUI  | **100%** |
 ---
+
 
 
 ## 12. Tài liệu tham khảo
