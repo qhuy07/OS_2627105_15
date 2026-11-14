@@ -281,7 +281,6 @@ Chèn ảnh giao diện và kết quả chạy thật. Nhận xét dựa trên W
 - Có thể bổ sung xuất biểu đồ, tạo dữ liệu ngẫu nhiên và đo hiệu năng tự động.
 
 ## 11. Phân công và đóng góp cá nhân
-Ghi rõ thành viên, nhiệm vụ, tệp phụ trách, commit Git và bằng chứng đóng góp. Mỗi thành viên cần hiểu thuật toán và có thể giải thích phần mình làm.
  STT | Họ và tên | MSSV | Nhiệm vụ / Output chịu trách nhiệm | Đánh giá |
 |:---:|:---|:---:|:---|:---:|
 | 1 | **Ngụy Thái Dương** | `[072207010104]` | Pseudocode, code, GUI | **100%** |
