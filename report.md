@@ -61,7 +61,7 @@ while vẫn còn tiến trình chưa hoàn thành:
         chạy tiến trình đến khi hoàn thành
         ghi thời điểm bắt đầu và kết thúc
 tính CT, TAT, WT, RT
-```
+
 ALGORITHM SJF_Non_Preemptive(Process_List)
 Input: Danh sách tiến trình với Arrival_Time và Burst_Time
 Output: Mô phỏng chạy không ngắt (Non-preemptive) và thời gian hoàn thành
@@ -128,6 +128,8 @@ Output: Mô phỏng chạy không ngắt (Non-preemptive) và thời gian hoàn 
     PRINT "Số lần Preemption: 0"
     PRINT "Avg Waiting: " + avg_waiting + " | Avg Turnaround: " + avg_turnaround
 END Algorithm
+```
+
 ### 6.2. SRTF
 ```text
 while vẫn còn tiến trình chưa hoàn thành:
