@@ -142,7 +142,7 @@ while vẫn còn tiến trình chưa hoàn thành:
         nếu có tiến trình ngắn hơn đến, cho phép chuyển CPU
         ghi thời điểm chạy lần đầu và thời điểm hoàn thành
 tính CT, TAT, WT, RT
-```
+
 ALGORITHM SRTF(Process_List) 
 Input: Danh sách tiến trình với Arrival_Time và Burst_Time 
 Output: Mô phỏng cơ chế Preemption và thời gian hoàn thành 
@@ -210,7 +210,10 @@ Output: Mô phỏng cơ chế Preemption và thời gian hoàn thành
         current_time = current_time + 1 
     END WHILE 
 END Algorithm
+```
+
 ## 7. Kiểm thử
+```text
 Thực hiện ít nhất các trường hợp:
 - Bộ dữ liệu thông thường có nhiều tiến trình đến ở các thời điểm khác nhau.
 - Một tiến trình đến muộn, kiểm tra khoảng CPU rảnh.
@@ -256,6 +259,7 @@ B. SRTF(Shortest Remaining Time First)
 3. Thống kê chuyển ngữ cảnh.
 Số lần bị ngắt quãng: 2
 •	Số lần chuyển CPU: 6.
+```
 
 ## 8. Đánh giá hiệu năng
 Chạy nhiều bộ dữ liệu có kích thước tăng dần, ví dụ 10, 50, 100, 500 tiến trình. Lặp mỗi lần đo 5 lần và lấy trung bình thời gian chạy thuật toán, không tính thời gian người dùng tương tác GUI. Ghi lại cấu hình máy, phiên bản Python, kích thước dữ liệu và phương pháp đo. Không điền số liệu giả; hãy chạy thực tế rồi bổ sung bảng:
