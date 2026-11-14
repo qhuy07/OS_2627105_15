@@ -224,6 +224,7 @@ Thực hiện ít nhất các trường hợp:
 | PID trùng | Báo lỗi, không chạy mô phỏng |
 | Burst Time <= 0 | Báo lỗi, không chạy mô phỏng |
 | CSV sai cột | Báo định dạng CSV không hợp lệ |
+
 I.	Đối chiếu giải thuật 
 A. SJF Không độc quyền
 1.	Tiến trình điều phối theo thời gian (Trace):
