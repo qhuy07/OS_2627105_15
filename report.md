@@ -286,3 +286,5 @@ Ghi rõ thành viên, nhiệm vụ, tệp phụ trách, commit Git và bằng ch
 
 
 ## 12. Tài liệu tham khảo
+|-------P1(7)-------|-P3(1)-|--P5(2)--|---P4(3)---|----P2(4)----|
+0                   7       8         10          13            17
