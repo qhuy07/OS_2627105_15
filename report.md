@@ -213,7 +213,7 @@ END Algorithm
 ```
 
 ## 7. Kiểm thử
-```text
+
 Thực hiện ít nhất các trường hợp:
 - Bộ dữ liệu thông thường có nhiều tiến trình đến ở các thời điểm khác nhau.
 - Một tiến trình đến muộn, kiểm tra khoảng CPU rảnh.
@@ -229,6 +229,7 @@ Thực hiện ít nhất các trường hợp:
 | PID trùng | Báo lỗi, không chạy mô phỏng |
 | Burst Time <= 0 | Báo lỗi, không chạy mô phỏng |
 | CSV sai cột | Báo định dạng CSV không hợp lệ |
+```text
 I.	Đối chiếu giải thuật 
 A. SJF Không độc quyền
 1.	Tiến trình điều phối theo thời gian (Trace):
