@@ -286,3 +286,19 @@ Ghi rõ thành viên, nhiệm vụ, tệp phụ trách, commit Git và bằng ch
 
 
 ## 12. Tài liệu tham khảo
+## 7. Kiểm thử
+Thực hiện ít nhất các trường hợp:
+- Bộ dữ liệu thông thường có nhiều tiến trình đến ở các thời điểm khác nhau.
+- Một tiến trình đến muộn, kiểm tra khoảng CPU rảnh.
+- Chỉ có một tiến trình.
+- Burst Time bằng nhau.
+- Dữ liệu sai: PID trùng, Arrival Time âm, Burst Time bằng 0 hoặc nhập chữ.
+- Kiểm tra đối chiếu biểu đồ Gantt với bảng kết quả và công thức.
+
+| Trường hợp | Kết quả mong đợi |
+|---|---|
+| Dữ liệu hợp lệ | Chạy được cả hai thuật toán và hiện bảng kết quả |
+| CPU không có tiến trình sẵn sàng | Hiện đoạn IDLE |
+| PID trùng | Báo lỗi, không chạy mô phỏng |
+| Burst Time <= 0 | Báo lỗi, không chạy mô phỏng |
+| CSV sai cột | Báo định dạng CSV không hợp lệ |
